@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+    <string name="albums_description">Here is an album list screen. This screen should support scrolling. You can add an album to the playlist (the \'Add to playlist\' button, the \'Play list\' screen should be implemented) or play the selected album by clicking on the \'Play\' button. When clicked, the user is moved to the \'Now is playing\' screen.</string>
+    <string name="title_activity_content_main2">Content_main2</string>
+    <string name="mainpage">MainPage</string>
+
+
+    <string name="pre"><![CDATA[<<]]></string>
+    <string name="playing">here is playing screen,you can move next or back of song you can also stop it and move to other activities through these buttons</string>
+    <string name="payment_Desc"> Android Pay enables simple and secure purchases of physical
+        goods and services in Android apps, and eliminates the need to manually enter payment and shipping information.
+    \nThe API provides all the Java methods you need to implement your payment process flow, including:\n
+-create an Android Pay buy button.\n
+ -request and receive encrypted shipping and payment information about the user \n
+-allow the user to change or update their information. \n
+-execute a transaction.\n
+\n methods you can use to implement an example payment flow.\n
+
+\n Java methods\n
+
+\nPackages:\n
+com.google.android.gms.wallet contains the Wallet Client for Google Play Services.\n
+com.google.android.gms.wallet.fragment contains the Buy Button display and interfaces.\n
+
+\nPublic classes and interface:\n
+\n class MaskedWalletRequest:\n	Use the MaskedWalletRequest Builder to create a masked, or partially hidden, payment card number, along with shipping address if requested.
+class FullWalletRequest:	Use the FullWalletRequest Builder to get the full credentials for the Android Pay payment transaction.
+\n class WalletFragment:\n	Provides a simple way to place and interact with a purchase button in the app UI.
+\n class PaymentMethodTokenizationParamters:\n	Parameters the app must provide to a Wallet Request in order to tokenize the credit card selected by the user. The payment processor may require specific parameters for their gateway.
+\n interface Wallet.Payments:\n	Interface to the Wallet payment flow APIs, used to check if the user can pay with Android Pay and to load a Masked or Full Wallet.
+\n interface WalletConstants:\n	A collection of constant values.</string>
+
+</resources>
